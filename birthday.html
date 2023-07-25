@@ -79,6 +79,7 @@ p {
 </head>
 <body>
   <h1>Happy Bornday!</h1>
+  <div style="height: 10px; display: block; margin:auto;"></div>
 
    
   </div>
@@ -90,6 +91,12 @@ p {
       <audio controls autoplay loop>
         <source src="happy-birthday-song.mp3" type="audio/mp3">
       </audio> </center>
+    <script>function playSound() {
+  var audio = document.querySelector('audio');
+  audio.play();
+}
+
+window.onload = playSound;</script>
     <div class="content">
       <p>Happy 16 Hajar!</p>
       <p> I wish you a day that's as delightful as your personality, a year that's as lovely as your heart, and a lifetime that's as cute as your character.</p>
